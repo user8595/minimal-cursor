@@ -8,7 +8,7 @@ A simple and minimalist cursor for Windows, with a unique yet familliar design, 
 
 Download the latest version from the Releases tab.
 
-Unpack the `minimalistic-cursor-v1.1.zip`, then open both dark and light folders.
+Unpack the `minimalistic-cursor-v1.0.zip`, then open both dark and light folders.
 
 Right click on the `install.inf` and select "Install" to install the cursor theme.
 
