@@ -1,0 +1,53 @@
+; minimalistic - cursor theme
+; by user85
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+busy.ani
+background.ani
+cursor.cur
+help.cur
+link_select.cur
+move.cur
+diag_res_1.cur
+diag_res_2.cur
+Install.inf
+v_res.cur
+h_res.cur
+precision.cur
+input.cur
+unavailable.cur
+handwriting.cur
+alternate.cur
+
+[Strings]
+CUR_DIR       = "Cursors\minimalistic"
+SCHEME_NAME   = "minimalistic"
+pointer       = "cursor.cur"
+help          = "help.cur"
+work          = "background.ani"
+busy          = "busy.ani"
+text          = "input.cur"
+unavailiable  = "unavailable.cur"
+vert          = "v_res.cur"
+horz          = "h_res.cur"
+dgn1          = "diag_res_1.cur"
+dgn2          = "diag_res_2.cur"
+move          = "move.cur"
+link          = "link_select.cur"
+cross         = "precision.cur"
+hand          = "handwriting.cur"
+alternate     = "alternate.cur"

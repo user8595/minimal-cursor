@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursor test</title>
+    <style>
+      body {
+        background-color: #222;
+        color: #eee;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 56px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        gap: 4px;
+        margin-bottom: 20px;
+        justify-content: center;
+      }
+      .item {
+        background-color: #282828;
+        border-radius: 4px;
+        padding: 14px;
+        width: 256px;
+        transition-duration: 0.15s;
+        text-align: center;
+      }
+      .item:hover {
+        background-color: #707070;
+        color:#333;
+      }
+      .item2 {
+        background-color: #2f2f2f;
+      }
+      @media (max-width: 768px) {
+        .container {
+          grid-template-columns: repeat(1, 0fr);
+        }
+      }
+      .smlspacing {
+        margin-bottom: -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="smlspacing">Cursor theme test</h1>
+    <p style="color: #777; margin-left: 0.2%; font-style: italic">
+      hover your cursor to one of the textboxes to test your cursor theme.
+    </p>
+    <div class="container">
+      <div class="item" style="cursor: default">Normal</div>
+      <div class="item item2" style="cursor: pointer">Link Select</div>
+      <div class="item" style="cursor: wait">Busy</div>
+      <div class="item item2" style="cursor: help">Help</div>
+      <div class="item" style="cursor: progress">Working In Background</div>
+      <div class="item item2" style="cursor: crosshair">Precision</div>
+      <div class="item" style="cursor: text">Text Select</div>
+      <div class="item item2" style="cursor: not-allowed">Unavailable</div>
+      <div class="item" style="cursor: n-resize">Vertical Resize</div>
+      <div class="item item2" style="cursor: e-resize">Horizontal Resize</div>
+      <div class="item" style="cursor: se-resize">Diagonal Resize 1</div>
+      <div class="item item2" style="cursor: ne-resize">Diagonal Resize 2</div>
+      <div class="item" style="cursor: move">Move</div>
+    </div>
+    <hr style="border: 1px solid #777" />
+    <footer style="font-size: small; color: #636363">
+      note: "Alternate Select", Handwriting", "Person Select", and "Location Select" are not included due to CSS
+      limitations.
+    </footer>
+  </body>
+</html>

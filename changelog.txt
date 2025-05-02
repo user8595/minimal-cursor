@@ -1,0 +1,33 @@
+1.0-rc1
+- initial version
+- a mess
+1.0-rc2
+- fixed cursor sizes
+- changed filenames
+1.0
+- change busy animation color
+- fix cursor tip alignment
+- final release
+
+- created git repository (25/04/2025)
+
+planned updates
+1.1 (more like 2.0)
+a really large update. assume this is a major release
+- added light mode
+- changed busy and background circle opacity (35 -> 15)
+- bolden outlines for consistency (3.892/2.415 -> 6.085)
+- added a cursor test webpage
+- revamped the help, window resize, location and person select cursors
+- remade text input cursor, now thinner
+- made the precision cursor thinner
+- remade busy cursor animation
+- remade unavailable cursor
+issues:
+- background cursor sizes is larger than normal cursor
+1.1.1-rc1
+- centered all cursor positions. (\/)
+- updated cursor test webpage (\/)
+- made all cursors high quality (128px) (~)
+1.1.1
+- added large variant
