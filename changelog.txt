@@ -31,3 +31,5 @@ issues:
 - made all cursors high quality (128px) (~)
 1.1.1
 - added large variant
+
+(Update 2-5-2025: This changelog is partially irrelevant now. The actual latest release will be reffered to as v1.0 instead.)
