@@ -4,6 +4,8 @@
 
 A simple and minimalist cursor for Windows, with a unique yet familliar design, focusing on usability than the looks while still looking aesthetically pleasing.
 
+TODO: change cover image to reflect actual cursor theme
+
 ## Installation
 
 Download the latest version from the Releases tab.
