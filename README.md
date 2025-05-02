@@ -26,4 +26,4 @@ Your cursor should be changed accordingly to the chosen cursor theme.
 
 ### Miscellaneous Info
 
-This cursor was made over a year ago, or possibly much more earlier than that before. i've only made the git repository just now, even though it's already slightly complete and already ready to use.
+This cursor is actually an old project i made over a year ago. i've only made the git repository just now, even though it's already slightly complete and already ready to use.
